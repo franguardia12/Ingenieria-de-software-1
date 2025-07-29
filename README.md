@@ -1,2 +1,16 @@
 # Ingenieria-de-software-1
 Trabajos realizados en la materia ingeniería de software 1 (ex análisis de la información) de la facultad de ingeniería (UBA). Cátedra Leveroni 1C2025.
+
+# Trabajos
+
+(trabajos realizados en conjunto con @ezerosello)
+
+- Código repetido: ejercicio que tiene como objetivo sacar el código repetido en el modelo y los tests (siendo este no necesariamente el mismo código exacto, si no uno que se comporte de la misma forma)
+- Quitar ifs: ejercicio que tiene como objetivo sacar todos los ifs que se encuentren en el modelo
+- Números: ejercicio que tiene como objetivo sacar los ifs que se encuentren en el modelo poniendo en práctica la técnica de double-dispatch para resolver el polimorfismo doble presente en algunas operaciones
+- Stack: ejercicio en el que se modela un stack (pila) implementando sus operaciones principales y testeándolas. Luego además se implementa una operación de parseo de prefijos, devolviendo aquellas oraciones almacenadas que comiencen con él
+- Mars Rover: primera parte del ejercicio en el que se debe modelar el sistema que controla al Mars Rover (robot de la NASA que realiza una exploración en Marte), en el que se pone en práctica la metodología de desarrollo TDD (Test-Driven Development) para implementar la funcionalidad necesaria
+- Servicios Financieros 1: primera parte del ejercicio en el que se modelan transferencias bancarias entre cuentas, además de poder hacer operaciones básicas con estas (incluyendo la agrupación de las mismas, llamada portfolio). Se ponen en práctica los patrones Composite y Object Recursion, ya que un portfolio en el fondo es una cuenta y debe poder ser usada como una
+- Servicios Financieros 2: segunda parte del ejercicio en el que se agrega la funcionalidad de realizar diferentes reportes en las cuentas y devolverlos con una forma determinada. Se pone en práctica el patrón Visitor, además de los anteriores, para agregar esto sin romper con el 1:1 con la realidad (que las cuentas al final del día lo sigan siendo y solo sepan hacer lo que una cuenta sabe)
+- Mars Rover El Regreso: segunda parte del ejercicio en la que se agregan diferentes formas de seguimiento del robot (ya sea con un log que registra sus cambios como una ventana que muestra su información actual). Se ponen en práctica los patrones Observer y Proxy para poder agregar diferentes formas de seguimiento y que eso no complejice el modelo, además permitiendo que este sea extensible para que puedan agregarse más en un futuro
+- Tus Libros: ejercicio integrador en el que se ponen en práctica los conceptos vistos durante la cursada en el que se modela un sistema de compras online de libros con su propia página. El sistema recibe pedidos vía una API REST y se utiliza el protocolo de comunicación HTTP. El desarrollo se divide en iteraciones (sprints) donde se implementa la funcionalidad necesaria a partir de la realización de historias de usuario planteadas, las cuales culminan al probar esa funcionalidad en el front end de la página 
